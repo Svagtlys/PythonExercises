@@ -57,7 +57,7 @@ if __name__ == "__main__":
     mynum = "".join(each for each in mynum)                         # mynum is saved as a string
     numguesses = 0                                                  # numguesses saved as int
 
-    print("My number is " + mynum)
+    # print("My number is " + mynum) <- Tells you the number
 
     print("Welcome to the game of Cows and Bulls!  I have written down a number containing four unique digits, and you must guess it!")
     input("Hit enter when you're ready to start.")
